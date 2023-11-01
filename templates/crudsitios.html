@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>plantilla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/static/estiloscsitio.css">
+    <img src="/static/buga/banner.png" alt="Banner" style="max-width: 100%; height: auto;">
+</head>
+<body>
+
+<!-- Banner de la parte superior -->
+
+
+
+    <button class="button home-button"><i class="fas fa-home"></i>Inicio</button>
+
+    <button class="button add-button"><i class="fas fa-plus"></i> Agregar categoria</button>
+
+<!-- Contenido de la página -->
+<div class="content-container">
+
+    <table border="10px">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Categoria</th>
+                <th>Sector</th>
+                <th>Calificación</th>
+                <th>Fotos</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+           <!--  {% for med in res %} -->
+                <tr>
+                    <td>1</td>
+                    <td>basilica</td>
+                    <td>señor de los milagros</td>
+                    <td>religioso</td>
+                    <td>barrio</td>
+                    <td>8.3</td>
+                    <td> 
+                        <button class="button photos-button"><i class="fas fa-camera"></i> Fotos</button>
+                    </td>
+                    <td>
+                            
+                            <button class="button edit-button"><i class="fas fa-edit"></i> Editar</button>
+                            <button class="button delete-button"><i class="fas fa-trash"></i> Eliminar</button>
+                    </td>
+                    <!--    <img class="img-thumbnail" width="100" src="uploads/{{med[3]}}" alt=""> 
+                    </td>
+                    <td><a href="/editamed/{{med[0]}}">Editar</a></td>
+                    <td><a onclick="return confirm('¿Seguro elimina este médico?')" href="/borramed/{{med[0]}}">Borrar</a></td> -->
+                </tr>
+           <!--  {% endfor %} -->
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+
+</html>

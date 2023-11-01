@@ -1,0 +1,154 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+.banner-image {
+  width: 100%;
+  display: block;
+}
+
+.form {
+  width: 350px;
+  height: 420px;
+  gap: 5px;
+  padding-bottom: 0.8em;
+  background-color: rgba(220, 220, 220, 0.429);
+  transition: 0.4s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15%;
+ /* Corregido el valor de box-shadow */
+  margin: auto;
+  padding: 1.2%;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.475);
+  
+}
+
+
+.form:hover {
+  transform: scale(1.05);
+  border: 1px solid rgb(0, 5, 15);
+}
+
+#heading {
+  text-align: center;
+  margin: 2em auto 1em; /* Ajusta el margen superior a 1em */
+  color: rgb(0, 0, 0);
+  font-size: 1.9em;
+  font-family: Arial, sans-serif; /* Tipografía gruesa y legible */
+  font-weight: bold;
+}
+
+
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: rgb(157, 157, 157);
+  background-color: #171717;
+  box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+
+  position: relative;
+  margin-bottom: 20px;
+
+}
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: white;
+
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #d3d3d3;
+
+}
+
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2.5em;
+}
+
+.button1 {
+  padding: 0.5em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  border-radius: 5px;
+  margin-right: 0.5em;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+  box-shadow: 
+
+  inset -4px -4px 10px rgba(5, 5, 5, 0.5)
+
+
+
+}
+
+.button1:hover {
+  background-color: black;
+  color: white;
+
+  background-color: #0163ff;
+  color: white;
+  font-size: 16px;
+}
+
+.button2 {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button2:hover {
+  background-color: black;
+  color: white;
+
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+
+}
+
+.button3 {
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button3:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+

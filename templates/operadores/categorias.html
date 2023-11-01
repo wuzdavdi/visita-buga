@@ -1,0 +1,56 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>categorias </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="/static/estiloscate.css">
+</head>
+<body>
+
+<!-- Banner de la parte superior -->
+
+    <img src="/static/buga/banner.png" alt="Banner" style="max-width: 100%; height: auto;">
+
+    <button class="button home-button"><i class="fas fa-home"></i>Inicio</button>
+
+    <button class="button add-button"><i class="fas fa-plus"></i> Agregar categoria</button>
+
+<!-- Contenido de la página -->
+<div class="content-container">
+
+    <table border="10px">
+        <thead>
+            <tr>
+                <th>Id Médico</th>
+                <th>Nombre</th>
+                <th>Especialidad</th>
+                <th>Foto</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+           <!--  {% for med in res %} -->
+                <tr>
+                    <td>1</td>
+                    <td>religioso</td>
+                    <td>zonas de religion</td>
+                    <td>la foto de la categoria</td>
+                    <td>
+                            
+                            <button class="button edit-button"><i class="fas fa-edit"></i> Editar</button>
+                            <button class="button delete-button"><i class="fas fa-trash"></i> Eliminar</button>
+                    </td>
+                    <!--    <img class="img-thumbnail" width="100" src="uploads/{{med[3]}}" alt=""> 
+                    </td>
+                    <td><a href="/editamed/{{med[0]}}">Editar</a></td>
+                    <td><a onclick="return confirm('¿Seguro elimina este médico?')" href="/borramed/{{med[0]}}">Borrar</a></td> -->
+                </tr>
+           <!--  {% endfor %} -->
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+
+</html>

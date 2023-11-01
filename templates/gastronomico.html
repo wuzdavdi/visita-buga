@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title class="titulo">Gastronomico </title>
+  <link rel="stylesheet" href="/static/cultural.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  <style>
+    #siteImage {
+      width: 1000px;
+      /* Cambia el valor para ajustar el ancho deseado */
+      height: 470px;
+      /* Cambia el valor para ajustar la altura deseada */
+      object-fit: cover;
+      /* Controla cómo se ajusta la imagen dentro del contenedor */
+      position: absolute;
+      top: 30%;
+      right: 36%;
+      left: 23%;
+    }
+  </style>
+
+  <script class="tamaño">
+    var currentImageIndex = 1;
+    var imageUrls = [
+      "/static/gastronomico/1.png",
+      "/static/gastronomico/2.png",
+      "/static/gastronomico/3.png",
+      "/static/gastronomico/4.png",
+      "/static/gastronomico/5.png",
+      "/static/gastronomico/6.png",
+      
+      // Agrega más URLs de imágenes aquí
+    ];
+
+    function changeImage() {
+      currentImageIndex = (currentImageIndex + 1) % imageUrls.length;
+      var imageUrl = imageUrls[currentImageIndex];
+      document.getElementById("siteImage").src = imageUrl;
+    }
+
+    setInterval(changeImage, 4500);
+  </script>
+</head>
+
+
+<body class="body">
+
+  <div style="position: relative;">
+    <img src="/static/buga/banner.png" alt="Banner" style="max-width: 100%; height: auto;">
+    <div class="home-button">
+      <a href="html.html"><img
+        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAASBJREFUSEvtlosNwjAMRK+bwCYwCTAJMAkwCWwCo6BDTWWan+22ioSwVKmV3Lz4d0mHRtY14mIKeAWAz8OzeS/4BODYA88A+G0yD3gD4D6imOFWcArKPbwAHCxpt4Bz0BC8Ca4Fs4meiiISvu0zUHTXgAm9AGDEGlPBNWA2khYq074u7bIG9kBV8BJ4CjTAr323R8HnwKzpXlNQhU9yxlNgqUqKdVUuEXwMrs2qipJx+oJL8JLQSN0kmDVlbZc0yiobLjoWCadg0Hbi3bsZislN/DycYkuPE89qSqh6nOg4xxz/BpjNIesW+iElOLNGnFKinOj8wUN3e8apWaoH9RHDmVM987HINalg1O+gZIGTukNbfD/r1G4gXqms/tcM/AaCpkUfhaC1jQAAAABJRU5ErkJggg==" /></a>
+    </div>
+    <div class="input-container">
+      <input type="text" name="text" class="input" placeholder="Busque Aqui ">
+      <span class="icon">
+        <svg width="19px" height="29px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path opacity="1" d="M14 5H20" stroke="#000" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+            <path opacity="1" d="M14 8H17" stroke="#000" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+            <path d="M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2" stroke="#000"
+              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path opacity="1" d="M22 22L20 20" stroke="#000" stroke-width="3.5" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </g>
+        </svg>
+      </span>
+    </div>
+    <!-- ... Código SVG ... -->
+    </svg>
+    </span>
+  </div>
+  </div>
+
+
+  <main>
+    <div class="image-gallery">
+      <img id="siteImage" src="" alt="Sitio Turístico">
+    </div>
+    <div class="r1">
+      <h1>Estos son los mejores sitios gastronomicos en buga </h1>
+    </div>
+
+  </main>
+  <div class="row">
+
+    <div class="col-12 col-md-3 my-3">
+  <div class="card">
+    <div class="card-img">
+      <img src="..//static/fotos/donk.png" alt="">
+    </div> 
+    <div class="card-info">
+      <p class="text-title">Don Karlos del Rio</p>
+      <p class="text-body">
+        ¡La receta de la chuleta valluna! Sabor Tradicional🔥</p>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497.5759085271084!2d-76.29922037533852!3d3.894029865097123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39e66a05506525%3A0xae55d07d4f350dcc!2sRestaurante%20Don%20Karlos%20Del%20Rio!5e0!3m2!1ses!2sco!4v1691854462497!5m2!1ses!2sco"
+        width="260" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="rating rating1">
+      <input type="radio" id="star5-1" name="rating-1" value="5" />
+      <label for="star5-1"></label>
+      <input type="radio" id="star4-1" name="rating-1" value="4" />
+      <label for="star4-1"></label>
+      <input type="radio" id="star3-1" name="rating-1" value="3" />
+      <label for="star3-1"></label>
+      <input type="radio" id="star2-1" name="rating-1" value="2" />
+      <label for="star2-1"></label>
+      <input type="radio" id="star1-1" name="rating-1" value="1" />
+      <label for="star1-1"></label>
+    </div>
+    <div class="card-footer">
+      <div class="comment-section">
+        <h3>Comentarios</h3>
+        <div class="comments">
+          <textarea class="comment-input" placeholder="Escribe un comentario"></textarea>
+          <button class="add-comment-button">Agregar Comentario</button>
+          <ul class="comments-list"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <div class="col-12 col-md-3 my-3">
+      <div class="card">
+        <div class="card-img">
+          <img src="..//static/fotos/costi.png" alt="">
+        </div>
+        <div class="card-info">
+            <p class="text-title">Costiky</p>
+            <p class="text-body">¡Puerta de tu casa los mas ricos y deliciosos platos!🐷</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497.57575860681436!2d-76.29885157987066!3d3.8942834734472314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39e66a0cbf3d67%3A0xbae2d1e8a479d6c7!2sCostiky!5e0!3m2!1ses!2sco!4v1691854628025!5m2!1ses!2sco"
+              width="260" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        <div class="rating rating2">
+          <input type="radio" id="star5-2" name="rating-2" value="5" />
+          <label for="star5-2"></label>
+          <input type="radio" id="star4-2" name="rating-2" value="4" />
+          <label for="star4-2"></label>
+          <input type="radio" id="star3-2" name="rating-2" value="3" />
+          <label for="star3-2"></label>
+          <input type="radio" id="star2-2" name="rating-2" value="2" />
+          <label for="star2-2"></label>
+          <input type="radio" id="star1-2" name="rating-2" value="1" />
+          <label for="star1-2"></label>
+        </div>
+        <div class="card-footer">
+          <div class="comment-section">
+            <h3>Comentarios</h3>
+            <div class="comments">
+              <textarea class="comment-input" placeholder="Escribe un comentario"></textarea>
+              <button class="add-comment-button">Agregar Comentario</button>
+              <ul class="comments-list"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    
+    <div class="col-12 col-md-3 my-3">
+      <div class="card">
+        <div class="card-img">
+          <img src="..//static/fotos/molle.png" alt="">
+        </div>
+        <div class="card-info">
+            <p class="text-title">Molle Pizza</p>
+            <p class="text-body">La mejor Pizza Súper Estofada y comida Italiana🍕</p><br><br>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3980.6285003161197!2d-76.30016322409615!3d3.889537548153486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39e66c78cdd2f3%3A0x3ad076eb343732fc!2sMolle%20Pizza!5e0!3m2!1ses!2sco!4v1691854681539!5m2!1ses!2sco"
+              width="260" height="260" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        <div class="rating rating3">
+          <input type="radio" id="star5-3" name="rating-3" value="5" />
+          <label for="star5-3"></label>
+          <input type="radio" id="star4-3" name="rating-3" value="4" />
+          <label for="star4-3"></label>
+          <input type="radio" id="star3-3" name="rating-3" value="3" />
+          <label for="star3-3"></label>
+          <input type="radio" id="star2-3" name="rating-3" value="2" />
+          <label for="star2-3"></label>
+          <input type="radio" id="star1-3" name="rating-3" value="1" />
+          <label for="star1-3"></label>
+        </div>
+        <div class="card-footer">
+          <div class="comment-section">
+            <h3>Comentarios</h3>
+            <div class="comments">
+              <textarea class="comment-input" placeholder="Escribe un comentario"></textarea>
+              <button class="add-comment-button">Agregar Comentario</button>
+              <ul class="comments-list"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    <div class="col-12 col-md-3 my-3">
+      <div class="card">
+        <div class="card-img">
+          <img src="..//static/fotos/acali.png" alt="">
+        </div>
+        <div class="card-info">
+            <p class="text-title">Arepas El Calidoso</p>
+            <p class="text-body">Deleitate con las mejores arepas rellenas de queso de Colombia🧀🔥</p><br><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.78516980643397!2d-76.29536453800524!3d3.9034393140282466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e39e7741235905f%3A0x6c02ddf0181ec73b!2sParque%20Santa%20Barbara!5e0!3m2!1ses-419!2sco!4v1692194091522!5m2!1ses-419!2sco" width="260" height="260" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+
+        <div class="rating rating4">
+          <input type="radio" id="star5-4" name="rating-4" value="5" />
+          <label for="star5-4"></label>
+          <input type="radio" id="star4-4" name="rating-4" value="4" />
+          <label for="star4-4"></label>
+          <input type="radio" id="star3-4" name="rating-4" value="3" />
+          <label for="star3-4"></label>
+          <input type="radio" id="star2-4" name="rating-4" value="2" />
+          <label for="star2-4"></label>
+          <input type="radio" id="star1-4" name="rating-4" value="1" />
+          <label for="star1-4"></label>
+        </div>
+        <div class="card-footer">
+          <div class="comment-section">
+            <h3>Comentarios</h3>
+            <div class="comments">
+              <textarea class="comment-input" placeholder="Escribe un comentario"></textarea>
+              <button class="add-comment-button">Agregar Comentario</button>
+              <ul class="comments-list"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+    <script>
+      // Función para agregar un comentario
+      function addComment(commentInput, commentsList) {
+        var commentText = commentInput.value;
+        if (commentText.trim() === "") {
+          return; // No agregar comentarios en blanco
+        }
+  
+        var listItem = document.createElement("li");
+        listItem.textContent = commentText;
+        commentsList.appendChild(listItem);
+  
+        commentInput.value = ""; // Borrar el contenido del campo de entrada
+      }
+  
+      // Función principal para inicializar la funcionalidad de comentarios
+      function initComments() {
+        var addCommentButtons = document.querySelectorAll(".add-comment-button");
+        addCommentButtons.forEach(function (button) {
+          button.addEventListener("click", function () {
+            var commentInput = button.parentElement.querySelector(".comment-input");
+            var commentsList = button.parentElement.querySelector(".comments-list");
+            addComment(commentInput, commentsList);
+          });
+        });
+      }
+  
+      // Inicializar la funcionalidad de comentarios cuando la página esté completamente cargada
+      window.addEventListener("load", initComments);
+    </script>
+
+</body>
+
+</html>

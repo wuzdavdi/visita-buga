@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="/static/estilosusu.css">
+</head>
+<body>
+<style>
+
+    .footer {
+        background-color: #858484;
+        padding: 10px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+</style>
+
+<!-- Banner de la parte superior -->
+
+    <img src="/static/buga/banner.png" alt="Banner" style="max-width: 100%; height: auto;">
+
+
+<!-- Contenido de la página -->
+<!-- Contenido de la página -->
+<div class="content-container">
+    <h2>Nombre del sitio</h2>
+    <table border="10px">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>foto1</th>
+                <th>foto2</th>
+                <th>foto3</th>
+                <th>foto4</th>
+                <th>foto5</th>
+            </tr>
+        </thead>
+        <tbody>
+           <!--  {% for med in res %} -->
+                <tr>
+                    <td>1</td>
+                    <td><img src="/static/imagenes/avatar.png" alt="">
+                    <button class="button delete-button"><i class="fas fa-trash"></i> Eliminar</button></td>
+                    <td><img src="/static/imagenes/avatar.png" alt="">
+                        <button class="button delete-button"><i class="fas fa-trash"></i> Eliminar</button></td>
+                        <td><img src="/static/imagenes/avatar.png" alt="">
+                            <button class="button delete-button"><i class="fas fa-trash"></i> Eliminar</button></td>
+                            <td><img src="/static/imagenes/avatar.png" alt="">
+                                <button class="button delete-button"><i class="fas fa-trash"></i> Eliminar</button></td>
+                                <td><img src="/static/imagenes/avatar.png" alt="">
+                                    <button class="button delete-button"><i class="fas fa-trash"></i> Eliminar</button></td>
+                   
+                    <!--    <img class="img-thumbnail" width="100" src="uploads/{{med[3]}}" alt=""> 
+                    </td>
+                    <td><a href="/editamed/{{med[0]}}">Editar</a></td>
+                    <td><a onclick="return confirm('¿Seguro elimina este médico?')" href="/borramed/{{med[0]}}">Borrar</a></td> -->
+                </tr>
+           <!--  {% endfor %} -->
+        </tbody>
+    </table>
+
+</div>
+
+
+</body>
+
+</html>
